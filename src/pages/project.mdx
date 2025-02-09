@@ -1,0 +1,29 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import Collapse from "../components/mdx/Collapse.astro";
+import Diff from "../components/mdx/Diff.astro";
+import Error from "../components/mdx/Error.astro";
+import Info from "../components/mdx/Info.astro";
+import Kbd from "../components/mdx/Kbd.astro";
+import Success from "../components/mdx/Success.astro";
+import Warning from "../components/mdx/Warning.astro";
+import TimeLine from "../components/mdx/TimeLine.astro";
+import LinkCard from "../components/mdx/LinkCard.astro";
+
+<BaseLayout title="Project">
+  <BaseCard title="Project">
+# Project
+
+---
+
+  </BaseCard>
+  <ProjectCard
+    title="Serv00 搭建节点"
+    image="https://s1.imagehub.cc/images/2025/02/08/b9d3656b644d0ba0856dc0658cdedb6e.png"
+    desc="一个魔法节点"
+    url="https://github.com/scacloud/serv00-play"
+    badge="Astro"
+    target="_self"
+  />
+</BaseLayout>
